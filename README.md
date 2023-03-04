@@ -17,7 +17,7 @@ git clone https://github.com/d4min/hangman.git
 
 - Defines the variable 'word_list' which is a list of words that the python script will use as the word to be guessed during the Hangman game. 
 
-- Imported the random library in python to allow the script to assign the variable 'word' a random word from the pre-defined list of words.
+- Imports the random library in python to allow the script to assign the variable 'word' a random word from the pre-defined list of words.
 ```python
 import random
 
