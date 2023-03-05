@@ -23,9 +23,7 @@ class Hangman:
                 self.list_of_guesses.append(guess)
                 self.check_guess(guess)
                 break
-                
-    
-        self.check_guess(guess)
+
 
     def check_guess(self, guess): 
         guess = guess.lower()      
@@ -39,4 +37,5 @@ class Hangman:
             self.num_letters -= 1
         else:
             print(f"Sorry, {guess} is not in the word. Try again.")
+
 
