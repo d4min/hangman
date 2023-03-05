@@ -105,7 +105,7 @@ else:
 ```
 1. A line is printed letting the user know that their guess was wrong.
 
-1. The number of lifes the user has are reduced by one.
+1. The number of lives the user has are reduced by one.
 
 1. The number of remaining lives is printed to the user. 
 
@@ -137,5 +137,5 @@ The loop works as follows:
 
 1. Checks if the variable num_letters is greater than zero. If so, it means there are still letters to be guessed so the ask_for_input() function is called again allowing the user to input a guess.
 
-1. If neither previous conditions are met this means the user has won the game because they have more than zero lives and all there aren't any more unique letters to be guessed. The script prints out a congratulations message and then breaks out of the loop. 
+1. If neither previous conditions are met this means the user has won the game because they have more than zero lives and there aren't any more unique letters to be guessed. The script prints out a congratulations message and then breaks out of the loop. 
 
